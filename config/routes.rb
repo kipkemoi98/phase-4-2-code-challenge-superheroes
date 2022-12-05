@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/index'
   resources :hero_powers
   resources :powers
   resources :heros
